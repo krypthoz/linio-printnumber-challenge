@@ -17,4 +17,4 @@ operators or `else`.
 
 # Run program
 
-mvn exec:java -Dexec.mainClass="mx.com.linio.printnumbers.App"
+mvn compile exec:java -Dexec.mainClass="mx.com.linio.printnumbers.App"
