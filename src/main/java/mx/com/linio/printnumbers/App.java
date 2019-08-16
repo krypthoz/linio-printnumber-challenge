@@ -25,6 +25,7 @@ public class App
 	public static void main(String[] args) {
 		new NumberPrinterDefault( )
 			.print( new NumberSequencePositiveRange( 100 ), 
+					//Using System.out only for demonstration purpose
 					new PrintStream( System.out ),
 					new NumberReplacementStrategyMultipleOfThreeAndFive( ), 
 					new NumberReplacementStrategyMultipleOfFive( ), 
