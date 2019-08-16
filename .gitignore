@@ -2,3 +2,10 @@
 \.classpath
 
 \.settings/
+
+\.project
+
+*.class
+\target\*
+
+target/classes/META-INF/maven/mx\.com\.linio/linio-printnumbers-challenge/pom\.properties
