@@ -1,4 +1,4 @@
-package mx.com.linio.logicaltest.printnumbers.api;
+package mx.com.linio.printnumbers.api;
 
 import java.io.PrintStream;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfNone;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfNone;
 
 /**
  * Abstract class which implements a {@link NumberPrinter} contract.
@@ -28,7 +28,7 @@ public abstract class BaseNumberPrinter implements NumberPrinter
 	 * Set default {@link PrintStream} if para is null.
 	 * Default PrintStream is configured as {@link System.out}
 	 * @param printStream
-	 * @return
+	 * @return the PrintStream by default if null, other return orginal
 	 */
 	protected PrintStream ifNullSetDefaultPrintStream( PrintStream printStream )
 	{

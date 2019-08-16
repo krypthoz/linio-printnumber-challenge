@@ -1,4 +1,4 @@
-package mx.com.linio.logicaltest.printnumbers.api;
+package mx.com.linio.printnumbers.api;
 
 import java.io.PrintStream;
 
@@ -39,7 +39,7 @@ public interface NumberPrinter
 	 * @param numberSequence sequence of numbers to compute
 	 * @param printStream output object where content is printed
 	 * @param strategies the replacement strategies
-	 * @throws IllegalArgumentException if NumberSequence para is null
+	 * @throws IllegalArgumentException if NumberSequence is null
 	 */
 	public void print( NumberSequence numberSequence, PrintStream printStream, NumberReplacementStrategy... strategies );
 	

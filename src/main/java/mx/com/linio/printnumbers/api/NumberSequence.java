@@ -1,4 +1,4 @@
-package mx.com.linio.logicaltest.printnumbers.api;
+package mx.com.linio.printnumbers.api;
 
 import java.util.stream.IntStream;
 
