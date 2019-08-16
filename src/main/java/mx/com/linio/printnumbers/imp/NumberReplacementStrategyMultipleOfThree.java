@@ -1,9 +1,9 @@
-package mx.com.linio.logicaltest.printnumbers.imp;
+package mx.com.linio.printnumbers.imp;
 
 import java.util.Optional;
 
-import mx.com.linio.logicaltest.printnumbers.api.BaseNumberReplacementStrategy;
-import mx.com.linio.logicaltest.printnumbers.api.NumberReplacementStrategy;
+import mx.com.linio.printnumbers.api.BaseNumberReplacementStrategy;
+import mx.com.linio.printnumbers.api.NumberReplacementStrategy;
 
 /**
  * 

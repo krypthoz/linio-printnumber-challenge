@@ -1,13 +1,13 @@
-package mx.com.linio.logicaltest.printnumbers.imp;
+package mx.com.linio.printnumbers.imp;
 
 import java.io.PrintStream;
 import java.util.Optional;
 
-import mx.com.linio.logicaltest.printnumbers.api.BaseNumberPrinter;
-import mx.com.linio.logicaltest.printnumbers.api.BaseNumberReplacementStrategy;
-import mx.com.linio.logicaltest.printnumbers.api.NumberPrinter;
-import mx.com.linio.logicaltest.printnumbers.api.NumberReplacementStrategy;
-import mx.com.linio.logicaltest.printnumbers.api.NumberSequence;
+import mx.com.linio.printnumbers.api.BaseNumberPrinter;
+import mx.com.linio.printnumbers.api.BaseNumberReplacementStrategy;
+import mx.com.linio.printnumbers.api.NumberPrinter;
+import mx.com.linio.printnumbers.api.NumberReplacementStrategy;
+import mx.com.linio.printnumbers.api.NumberSequence;
 
 /**
  * 
@@ -24,7 +24,7 @@ public class NumberPrinterDefault extends BaseNumberPrinter
 
 	/**
 	 * {@inheritDoc}
-	 * @see mx.com.linio.logicaltest.printnumbers.api.NumberPrinter#print(mx.com.linio.logicaltest.printnumbers.api.NumberSequence, java.io.PrintStream, mx.com.linio.logicaltest.printnumbers.api.NumberReplacementStrategy[])
+	 * @see mx.com.linio.printnumbers.api.NumberPrinter#print(mx.com.linio.printnumbers.api.NumberSequence, java.io.PrintStream, mx.com.linio.printnumbers.api.NumberReplacementStrategy[])
 	 */
 	@Override
 	public void print( NumberSequence numberSequence, PrintStream printStream, NumberReplacementStrategy... strategies ) 

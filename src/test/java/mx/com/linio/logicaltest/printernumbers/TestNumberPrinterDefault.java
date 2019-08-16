@@ -6,12 +6,12 @@ import java.io.PrintStream;
 import org.junit.Assert;
 import org.junit.Test;
 
-import mx.com.linio.logicaltest.printnumbers.imp.NumberPrinterDefault;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfFive;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfNone;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfThree;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfThreeAndFive;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberSequencePositiveRange;
+import mx.com.linio.printnumbers.imp.NumberPrinterDefault;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfFive;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfNone;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfThree;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfThreeAndFive;
+import mx.com.linio.printnumbers.imp.NumberSequencePositiveRange;
 
 /**
  * Test case suit for {@link NumberPrinterDefault}.

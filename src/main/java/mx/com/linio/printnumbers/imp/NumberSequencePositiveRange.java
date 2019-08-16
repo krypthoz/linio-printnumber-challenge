@@ -1,9 +1,9 @@
-package mx.com.linio.logicaltest.printnumbers.imp;
+package mx.com.linio.printnumbers.imp;
 
 import java.util.Optional;
 import java.util.stream.IntStream;
 
-import mx.com.linio.logicaltest.printnumbers.api.NumberSequence;
+import mx.com.linio.printnumbers.api.NumberSequence;
 
 /**
  * Concrete implementation of {@link NumberSequence}

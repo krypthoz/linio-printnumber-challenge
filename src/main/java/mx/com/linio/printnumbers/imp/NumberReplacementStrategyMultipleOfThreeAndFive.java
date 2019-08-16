@@ -1,14 +1,14 @@
-package mx.com.linio.logicaltest.printnumbers.imp;
+package mx.com.linio.printnumbers.imp;
 
 import java.util.Optional;
 
-import mx.com.linio.logicaltest.printnumbers.api.BaseNumberReplacementStrategy;
-import mx.com.linio.logicaltest.printnumbers.api.NumberReplacementStrategy;
+import mx.com.linio.printnumbers.api.BaseNumberReplacementStrategy;
+import mx.com.linio.printnumbers.api.NumberReplacementStrategy;
 
 /**
  * 
  * Concrete implementation of {@link NumberReplacementStrategy }.
- * This class replace a number by IT string if number is multiple of Five.
+ * This class replace a number by Linianos string if number is multiple of three and five.
  *  
  *  
  * @author  vladimir fajardo ( krypthoz@gmail.com )
@@ -16,9 +16,9 @@ import mx.com.linio.logicaltest.printnumbers.api.NumberReplacementStrategy;
  * @since   2019-08-15
  *
  */
-public class NumberReplacementStrategyMultipleOfFive extends BaseNumberReplacementStrategy 
+public class NumberReplacementStrategyMultipleOfThreeAndFive extends BaseNumberReplacementStrategy 
 {
-
+	
 	/**
 	 * {@inheritDoc}
 	 * @see {@link NumberReplacementStrategy#applyStrategy(int)}
@@ -26,7 +26,7 @@ public class NumberReplacementStrategyMultipleOfFive extends BaseNumberReplaceme
 	@Override
 	public Optional< String > applyStrategy( int number ) 
 	{
-		return this.replaceWithToken( number, 5 );
+		return this.replaceWithToken( number,( 3*5 ) );
 	}
 
 	/**
@@ -34,11 +34,11 @@ public class NumberReplacementStrategyMultipleOfFive extends BaseNumberReplaceme
 	 * @see {@linkBaseNumberReplacementStrategy#getToken()}
 	 */
 	@Override
-	protected Optional<String> getToken( ) 
+	protected Optional<String> getToken(  ) 
 	{
-		return Optional.of( "IT" );
+		return Optional.of( "Linianos" );
 	}
-
+	
 	/**
 	 * {@inheritDoc}
 	 * 
@@ -46,7 +46,6 @@ public class NumberReplacementStrategyMultipleOfFive extends BaseNumberReplaceme
 	 */
 	protected Integer getMultiple( )
 	{
-		return 5;
+		return 5 * 3;
 	}
-	
 }

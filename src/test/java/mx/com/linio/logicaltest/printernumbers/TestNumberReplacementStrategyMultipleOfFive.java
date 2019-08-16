@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.junit.Assert;
 import org.junit.Test;
 
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfFive;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfFive;
 
 /**
  * Test case suit for {@link NumberReplacementStrategyMultipleOfFive}.

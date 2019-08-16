@@ -1,12 +1,12 @@
-package mx.com.linio.logicaltest.printnumbers;
+package mx.com.linio.printnumbers;
 
 import java.io.PrintStream;
 
-import mx.com.linio.logicaltest.printnumbers.imp.NumberPrinterDefault;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfFive;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfThree;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberReplacementStrategyMultipleOfThreeAndFive;
-import mx.com.linio.logicaltest.printnumbers.imp.NumberSequencePositiveRange;
+import mx.com.linio.printnumbers.imp.NumberPrinterDefault;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfFive;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfThree;
+import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfThreeAndFive;
+import mx.com.linio.printnumbers.imp.NumberSequencePositiveRange;
 
 /**
  * This class is the entry point to the program. 

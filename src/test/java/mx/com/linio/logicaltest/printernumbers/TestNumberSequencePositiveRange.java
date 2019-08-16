@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 import org.junit.Assert;
 import org.junit.Test;
 
-import mx.com.linio.logicaltest.printnumbers.imp.NumberSequencePositiveRange;
+import mx.com.linio.printnumbers.imp.NumberSequencePositiveRange;
 
 /**
  * Test case suit for {@link NumberSequencePositiveRange}.
