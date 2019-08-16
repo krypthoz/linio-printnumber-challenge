@@ -1,0 +1,13 @@
+mx\com\linio\logicaltest\printnumbers\BaseNumberReplacementStrategy.class
+mx\com\linio\logicaltest\printnumbers\imp\NumberSequencePositiveRange.class
+mx\com\linio\logicaltest\printnumbers\NumberSequence.class
+mx\com\linio\logicaltest\printnumbers\BaseNumberPrinter.class
+mx\com\linio\logicaltest\printnumbers\imp\App.class
+mx\com\linio\logicaltest\printnumbers\imp\NumberReplacementStrategyMultipleOfFive.class
+mx\com\linio\logicaltest\printnumbers\imp\NumberPrinterDefault.class
+mx\com\linio\logicaltest\printnumbers\imp\NumberReplacementStrategyMultipleOfNone.class
+mx\com\linio\logicaltest\printnumbers\NumberReplacementStrategy.class
+mx\com\linio\logicaltest\printnumbers\imp\NumberReplacementStrategyMultipleOfThree.class
+mx\com\linio\logicaltest\printnumbers\imp\NumberReplacementStrategyMultipleOfThreeAndFive.class
+mx\com\linio\logicaltest\printnumbers\NumberPrinter.class
+mx\com\linio\logicaltest\printnumbers\BaseNumberReplacementStrategy$ReplacementStrategyComparator.class
