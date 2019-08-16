@@ -24,7 +24,7 @@ public class NumberPrinterDefault extends BaseNumberPrinter
 
 	/**
 	 * {@inheritDoc}
-	 * @see mx.com.linio.printnumbers.api.NumberPrinter#print(mx.com.linio.printnumbers.api.NumberSequence, java.io.PrintStream, mx.com.linio.printnumbers.api.NumberReplacementStrategy[])
+	 * @see {@link NumberPrinter#print(mx.com.linio.printnumbers.api.NumberSequence, java.io.PrintStream, mx.com.linio.printnumbers.api.NumberReplacementStrategy[])}
 	 */
 	@Override
 	public void print( NumberSequence numberSequence, PrintStream printStream, NumberReplacementStrategy... strategies ) 
