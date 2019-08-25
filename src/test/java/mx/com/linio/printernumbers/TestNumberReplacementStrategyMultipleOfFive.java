@@ -1,4 +1,4 @@
-package mx.com.linio.logicaltest.printernumbers;
+package mx.com.linio.printernumbers;
 
 import java.util.Optional;
 
@@ -69,7 +69,7 @@ public class TestNumberReplacementStrategyMultipleOfFive
 	}
 
 	/**
-	 * Should return Optional.empty When ApplyStrategyMultipleOfFive to NinetyNine Numbe
+	 * Should return Optional.empty When ApplyStrategyMultipleOfFive to NinetyNine Number
 	 */
 	@Test
 	public void shouldReturnOptionalEmptyWhenApplyStrategyAsNoValidMultipleOfFiveToNumberNinetyNine( ) 

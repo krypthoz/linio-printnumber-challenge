@@ -26,7 +26,7 @@ public class NumberReplacementStrategyMultipleOfThreeAndFive extends BaseNumberR
 	@Override
 	public Optional< String > applyStrategy( int number ) 
 	{
-		return this.replaceWithToken( number,( 3*5 ) );
+		return super.replaceWithToken( number, getMultiple( ) );
 	}
 
 	/**

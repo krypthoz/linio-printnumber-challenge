@@ -26,7 +26,7 @@ public class NumberReplacementStrategyMultipleOfNone extends BaseNumberReplaceme
 	@Override
 	public Optional< String > applyStrategy( int number )
 	{
-		return this.replaceWithToken( number, -1 );
+		return super.replaceWithToken( number, getMultiple( ) );
 	}
 	
 	/**

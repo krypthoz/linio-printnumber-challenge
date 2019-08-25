@@ -26,7 +26,7 @@ public class NumberReplacementStrategyMultipleOfFive extends BaseNumberReplaceme
 	@Override
 	public Optional< String > applyStrategy( int number ) 
 	{
-		return this.replaceWithToken( number, 5 );
+		return super.replaceWithToken( number, getMultiple( ) );
 	}
 
 	/**

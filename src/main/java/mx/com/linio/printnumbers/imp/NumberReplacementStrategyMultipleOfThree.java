@@ -26,7 +26,7 @@ public class NumberReplacementStrategyMultipleOfThree extends BaseNumberReplacem
 	@Override
 	public Optional< String > applyStrategy( int number ) 
 	{
-		return this.replaceWithToken( number, 3 );
+		return super.replaceWithToken( number, getMultiple( ) );
 	}
 
 	/**

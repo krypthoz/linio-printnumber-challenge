@@ -20,8 +20,14 @@ import mx.com.linio.printnumbers.imp.NumberReplacementStrategyMultipleOfNone;
  */
 public abstract class BaseNumberPrinter implements NumberPrinter 
 {
+	/**
+	 * holds default printStream 
+	 */
 	protected  static final PrintStream default_print_stream = System.out; 
 
+	/**
+	 * holds default number sequence
+	 */
 	protected static final NumberReplacementStrategy default_number_replacement_strategy = new NumberReplacementStrategyMultipleOfNone( );
 
 	/**
