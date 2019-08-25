@@ -1,4 +1,4 @@
-package mx.com.linio.printernumbers;
+package mx.com.linio.printnumbers;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
